@@ -1,0 +1,61 @@
+{
+  "product": "CalHeatScore",
+  "issue_date": "2026-10-08",
+  "generated_utc": "2026-11-20T19:07:55+00:00",
+  "next_update": "2026-11-21T05:45:00-08:00",
+  "zip_count": 1721,
+  "entire_forecast": "CalHeatScore_Entire_Fcst.kml",
+  "geojson": "CalHeatScore_7Day_Fcst.geojson",
+  "shapefile": "CalHeatScore_7Day_Fcst_shp.zip",
+  "days": [
+    {
+      "day": 1,
+      "valid_date": "2026-10-08",
+      "score_field": "CHS_Day_0",
+      "file": "CalHeatScore_Day1_Fcst.kmz",
+      "png": "CalHeatScore_Day1_Fcst.png"
+    },
+    {
+      "day": 2,
+      "valid_date": "2026-10-09",
+      "score_field": "CHS_Day_1",
+      "file": "CalHeatScore_Day2_Fcst.kmz",
+      "png": "CalHeatScore_Day2_Fcst.png"
+    },
+    {
+      "day": 3,
+      "valid_date": "2026-10-10",
+      "score_field": "CHS_Day_2",
+      "file": "CalHeatScore_Day3_Fcst.kmz",
+      "png": "CalHeatScore_Day3_Fcst.png"
+    },
+    {
+      "day": 4,
+      "valid_date": "2026-10-11",
+      "score_field": "CHS_Day_3",
+      "file": "CalHeatScore_Day4_Fcst.kmz",
+      "png": "CalHeatScore_Day4_Fcst.png"
+    },
+    {
+      "day": 5,
+      "valid_date": "2026-10-12",
+      "score_field": "CHS_Day_4",
+      "file": "CalHeatScore_Day5_Fcst.kmz",
+      "png": "CalHeatScore_Day5_Fcst.png"
+    },
+    {
+      "day": 6,
+      "valid_date": "2026-10-13",
+      "score_field": "CHS_Day_5",
+      "file": "CalHeatScore_Day6_Fcst.kmz",
+      "png": "CalHeatScore_Day6_Fcst.png"
+    },
+    {
+      "day": 7,
+      "valid_date": "2026-10-14",
+      "score_field": "CHS_Day_6",
+      "file": "CalHeatScore_Day7_Fcst.kmz",
+      "png": "CalHeatScore_Day7_Fcst.png"
+    }
+  ]
+}
