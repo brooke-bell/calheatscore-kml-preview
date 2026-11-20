@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Folder>
+		<name>CalHeatScore</name>
+		<open>1</open>
+		<NetworkLink>
+			<name>CalHeatScore 1 Day Forecast</name>
+			<open>1</open>
+			<description>Auto-Updates Twice Daily (5:45 AM and 8:45 AM Pacific)</description>
+			<Link>
+				<href>https://brooke-bell.github.io/calheatscore-kml-preview/CalHeatScore_Day1_Fcst.kmz</href>
+				<refreshMode>onExpire</refreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>CalHeatScore 2 Day Forecast</name>
+			<open>0</open>
+			<visibility>0</visibility>
+			<description>Auto-Updates Twice Daily (5:45 AM and 8:45 AM Pacific)</description>
+			<Link>
+				<href>https://brooke-bell.github.io/calheatscore-kml-preview/CalHeatScore_Day2_Fcst.kmz</href>
+				<refreshMode>onExpire</refreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>CalHeatScore 3 Day Forecast</name>
+			<open>0</open>
+			<visibility>0</visibility>
+			<description>Auto-Updates Twice Daily (5:45 AM and 8:45 AM Pacific)</description>
+			<Link>
+				<href>https://brooke-bell.github.io/calheatscore-kml-preview/CalHeatScore_Day3_Fcst.kmz</href>
+				<refreshMode>onExpire</refreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>CalHeatScore 4 Day Forecast</name>
+			<open>0</open>
+			<visibility>0</visibility>
+			<description>Auto-Updates Twice Daily (5:45 AM and 8:45 AM Pacific)</description>
+			<Link>
+				<href>https://brooke-bell.github.io/calheatscore-kml-preview/CalHeatScore_Day4_Fcst.kmz</href>
+				<refreshMode>onExpire</refreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>CalHeatScore 5 Day Forecast</name>
+			<open>0</open>
+			<visibility>0</visibility>
+			<description>Auto-Updates Twice Daily (5:45 AM and 8:45 AM Pacific)</description>
+			<Link>
+				<href>https://brooke-bell.github.io/calheatscore-kml-preview/CalHeatScore_Day5_Fcst.kmz</href>
+				<refreshMode>onExpire</refreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>CalHeatScore 6 Day Forecast</name>
+			<open>0</open>
+			<visibility>0</visibility>
+			<description>Auto-Updates Twice Daily (5:45 AM and 8:45 AM Pacific)</description>
+			<Link>
+				<href>https://brooke-bell.github.io/calheatscore-kml-preview/CalHeatScore_Day6_Fcst.kmz</href>
+				<refreshMode>onExpire</refreshMode>
+			</Link>
+		</NetworkLink>
+		<NetworkLink>
+			<name>CalHeatScore 7 Day Forecast</name>
+			<open>0</open>
+			<visibility>0</visibility>
+			<description>Auto-Updates Twice Daily (5:45 AM and 8:45 AM Pacific)</description>
+			<Link>
+				<href>https://brooke-bell.github.io/calheatscore-kml-preview/CalHeatScore_Day7_Fcst.kmz</href>
+				<refreshMode>onExpire</refreshMode>
+			</Link>
+		</NetworkLink>
+	</Folder>
+</kml>
