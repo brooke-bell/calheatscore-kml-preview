@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CalHeatScore KML Data</title><style>body{font-family:Arial,Helvetica,sans-serif;max-width:60rem;margin:2rem auto;padding:0 1rem;color:#222;line-height:1.5}h1{font-size:1.6rem}h2{font-size:1.2rem;margin-top:2rem}table{border-collapse:collapse;margin:1rem 0}th,td{border:1px solid #ccc;padding:6px 12px;text-align:left;vertical-align:top}th{background:#f3f3f3}.sw{display:inline-block;width:1.2em;height:1em;border:1px solid #888;vertical-align:middle;margin-right:.4em}.note{color:#555;font-size:.95em}.preview{background:#fff6dd;border:1px solid #e0c36a;padding:.8rem 1rem;margin-bottom:1.5rem}.sample img{max-width:100%;border:1px solid #ccc}</style></head>
+<body>
+<div class="preview">Preview for review. This is a test copy of the CalHeatScore KML page. The files hold sample data from the forecast issued October 8, 2026, and they won't update.</div>
+<h1>CalHeatScore KML Data</h1>
+<p>This page hosts the current CalHeatScore forecast as KML files for Google Earth, broadcast
+graphics and GIS software, along with GeoJSON, shapefile and ready-made map images. Each file covers
+every California ZIP code, colored by its CalHeatScore for that day. The files are refreshed twice daily, at about 5:45 AM and 8:45 AM Pacific Time.</p>
+<p><strong>Forecast issued:</strong> 10/08/2026<br>
+<strong>Files last updated:</strong> 11/20/2026 11:07 AM PST<br>
+<strong>Next scheduled update:</strong> 11/21/2026 5:45 AM PST</p>
+
+<h2>Current forecast</h2>
+<table>
+<tr><th>KML for entire forecast period</th>
+<td colspan="7"><a href="CalHeatScore_Entire_Fcst.kml">7-Day Forecast</a>
+<span class="note">(opens all 7 days in Google Earth and updates automatically)</span></td></tr>
+<tr><th>KML for individual days</th><td><a href="CalHeatScore_Day1_Fcst.kmz">Day 1</a><br>Thu 10/08</td><td><a href="CalHeatScore_Day2_Fcst.kmz">Day 2</a><br>Fri 10/09</td><td><a href="CalHeatScore_Day3_Fcst.kmz">Day 3</a><br>Sat 10/10</td><td><a href="CalHeatScore_Day4_Fcst.kmz">Day 4</a><br>Sun 10/11</td><td><a href="CalHeatScore_Day5_Fcst.kmz">Day 5</a><br>Mon 10/12</td><td><a href="CalHeatScore_Day6_Fcst.kmz">Day 6</a><br>Tue 10/13</td><td><a href="CalHeatScore_Day7_Fcst.kmz">Day 7</a><br>Wed 10/14</td></tr>
+<tr><th>Map images (PNG, 1920&times;1080)</th><td><a href="CalHeatScore_Day1_Fcst.png">Day 1</a></td><td><a href="CalHeatScore_Day2_Fcst.png">Day 2</a></td><td><a href="CalHeatScore_Day3_Fcst.png">Day 3</a></td><td><a href="CalHeatScore_Day4_Fcst.png">Day 4</a></td><td><a href="CalHeatScore_Day5_Fcst.png">Day 5</a></td><td><a href="CalHeatScore_Day6_Fcst.png">Day 6</a></td><td><a href="CalHeatScore_Day7_Fcst.png">Day 7</a></td></tr>
+<tr><th>GeoJSON (all 7 days)</th><td colspan="7"><a href="CalHeatScore_7Day_Fcst.geojson">CalHeatScore_7Day_Fcst.geojson</a></td></tr><tr><th>Shapefile (all 7 days, zipped)</th><td colspan="7"><a href="CalHeatScore_7Day_Fcst_shp.zip">CalHeatScore_7Day_Fcst_shp.zip</a></td></tr><tr><th>Web service (ArcGIS REST)</th><td colspan="7"><a href="https://services1.arcgis.com/PCHfdHz4GlDNAhBb/arcgis/rest/services/CalHeatScore_Live_Data_for_API_Use/FeatureServer/0">CalHeatScore live data layer</a> <span class="note">(query, GeoJSON and other formats; no key required)</span></td></tr>
+</table>
+<p class="note">The links above always point to the latest forecast. See the
+<a href="README.txt">readme</a> for file and field descriptions.</p>
+
+<h2>Using the data</h2>
+<p>Each Day KML includes the fields <code>CHS</code> (that day's score, 0&ndash;4),
+<code>CHS_LABEL</code> and <code>VALID_DATE</code>, so graphics and GIS software can color or label ZIP
+codes with a single template that works for every day. The GeoJSON and shapefile carry all 7 days
+as <code>CHS_Day_0</code> (Day 1) through <code>CHS_Day_6</code> (Day 7). The map images can be used
+as-is in broadcasts, web stories and social posts.</p>
+<p>Please credit: <strong>Source: CalHeatScore (calheatscore.calepa.ca.gov)</strong>.</p>
+
+<h2>CalHeatScore scale</h2>
+<table><tr><th>Score</th><th>Level</th></tr><tr><td><span class="sw" style="background:#DEDEDE"></span>0</td><td>Low</td></tr><tr><td><span class="sw" style="background:#FAE0C8"></span>1</td><td>Mild</td></tr><tr><td><span class="sw" style="background:#EA8753"></span>2</td><td>Moderate</td></tr><tr><td><span class="sw" style="background:#C23A00"></span>3</td><td>High</td></tr><tr><td><span class="sw" style="background:#700006"></span>4</td><td>Severe</td></tr></table>
+
+<p><a href="https://calheatscore.calepa.ca.gov/">Navigate back to the CalHeatScore website.</a></p>
+</body></html>
